@@ -1,1 +1,86 @@
-{"nbformat":4,"nbformat_minor":0,"metadata":{"colab":{"provenance":[],"authorship_tag":"ABX9TyOsOgAaMIevzTECUcUchNQU"},"kernelspec":{"name":"python3","display_name":"Python 3"},"language_info":{"name":"python"}},"cells":[{"cell_type":"code","execution_count":4,"metadata":{"colab":{"base_uri":"https://localhost:8080/","height":1000},"id":"gwSB4gMapKuW","executionInfo":{"status":"error","timestamp":1791903274405,"user_tz":180,"elapsed":52663,"user":{"displayName":"Adriano Pinto de Andrade e Silva","userId":"15393293532749401392"}},"outputId":"b7d8c568-8b75-48b9-9ba5-e077922896d4"},"outputs":[{"output_type":"stream","name":"stdout","text":["\n","========================================\n","         TASKTRACKER - MENU\n","========================================\n","1. Cadastrar nova tarefa\n","2. Visualizar tarefas cadastradas\n","3. Sair da aplicacao\n","========================================\n","Escolha uma opcao (1-3): 1\n","\n","--- CADASTRO DE NOVA TAREFA ---\n","\n","Titulo da tarefa: 11h\n","Descricao da tarefa: estudar\n","Prioridade (Alta / Media / Baixa): alta\n","Data limite (DD/MM/AAAA): 22/05/2027\n","\n","Tarefa cadastrada com sucesso!\n","\n","========================================\n","         TASKTRACKER - MENU\n","========================================\n","1. Cadastrar nova tarefa\n","2. Visualizar tarefas cadastradas\n","3. Sair da aplicacao\n","========================================\n","Escolha uma opcao (1-3): 2\n","\n","--- LISTA DE TAREFAS ---\n","\n","Tarefa 1:\n","  Titulo:     11h\n","  Descricao:  estudar\n","  Prioridade: Alta\n","  Data Limite:22/05/2027\n","  Status:     Pendente\n","------------------------------\n","\n","========================================\n","         TASKTRACKER - MENU\n","========================================\n","1. Cadastrar nova tarefa\n","2. Visualizar tarefas cadastradas\n","3. Sair da aplicacao\n","========================================\n"]},{"output_type":"error","ename":"KeyboardInterrupt","evalue":"Interrupted by user","traceback":["\u001b[0;31m---------------------------------------------------------------------------\u001b[0m","\u001b[0;31mKeyboardInterrupt\u001b[0m                         Traceback (most recent call last)","\u001b[0;32m/tmp/ipykernel_1042/3378213140.py\u001b[0m in \u001b[0;36m<cell line: 0>\u001b[0;34m()\u001b[0m\n\u001b[1;32m     97\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m     98\u001b[0m \u001b[0;31m# Iniciar o programa\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m---> 99\u001b[0;31m \u001b[0mmain\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m","\u001b[0;32m/tmp/ipykernel_1042/3378213140.py\u001b[0m in \u001b[0;36mmain\u001b[0;34m()\u001b[0m\n\u001b[1;32m     83\u001b[0m     \u001b[0;32mwhile\u001b[0m \u001b[0;32mTrue\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m     84\u001b[0m         \u001b[0mexibir_menu\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m---> 85\u001b[0;31m         \u001b[0mopcao\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0minput\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m\"Escolha uma opcao (1-3): \"\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mstrip\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m     86\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m     87\u001b[0m         \u001b[0;32mif\u001b[0m \u001b[0mopcao\u001b[0m \u001b[0;34m==\u001b[0m \u001b[0;34m\"1\"\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n","\u001b[0;32m/usr/local/lib/python3.13/dist-packages/ipykernel/kernelbase.py\u001b[0m in \u001b[0;36mraw_input\u001b[0;34m(self, prompt)\u001b[0m\n\u001b[1;32m   1175\u001b[0m                 \u001b[0;34m\"raw_input was called, but this frontend does not support input requests.\"\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m   1176\u001b[0m             )\n\u001b[0;32m-> 1177\u001b[0;31m         return self._input_request(\n\u001b[0m\u001b[1;32m   1178\u001b[0m             \u001b[0mstr\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mprompt\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m,\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m   1179\u001b[0m             \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0m_parent_ident\u001b[0m\u001b[0;34m[\u001b[0m\u001b[0;34m\"shell\"\u001b[0m\u001b[0;34m]\u001b[0m\u001b[0;34m,\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n","\u001b[0;32m/usr/local/lib/python3.13/dist-packages/ipykernel/kernelbase.py\u001b[0m in \u001b[0;36m_input_request\u001b[0;34m(self, prompt, ident, parent, password)\u001b[0m\n\u001b[1;32m   1217\u001b[0m             \u001b[0;32mexcept\u001b[0m \u001b[0mKeyboardInterrupt\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m   1218\u001b[0m                 \u001b[0;31m# re-raise KeyboardInterrupt, to truncate traceback\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m-> 1219\u001b[0;31m                 \u001b[0;32mraise\u001b[0m \u001b[0mKeyboardInterrupt\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m\"Interrupted by user\"\u001b[0m\u001b[0;34m)\u001b[0m \u001b[0;32mfrom\u001b[0m \u001b[0;32mNone\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m   1220\u001b[0m             \u001b[0;32mexcept\u001b[0m \u001b[0mException\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m   1221\u001b[0m                 \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mlog\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mwarning\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m\"Invalid Message:\"\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mexc_info\u001b[0m\u001b[0;34m=\u001b[0m\u001b[0;32mTrue\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n","\u001b[0;31mKeyboardInterrupt\u001b[0m: Interrupted by user"]}],"source":["# ==============================\n","# TaskTracker - Fase 2\n","# Versao Completa com Validacoes\n","# ==============================\n","\n","def exibir_menu():\n","    print(\"\\n\" + \"=\"*40)\n","    print(\"         TASKTRACKER - MENU\")\n","    print(\"=\"*40)\n","    print(\"1. Cadastrar nova tarefa\")\n","    print(\"2. Visualizar tarefas cadastradas\")\n","    print(\"3. Sair da aplicacao\")\n","    print(\"=\"*40)\n","\n","\n","def cadastrar_tarefa(tarefas):\n","    print(\"\\n--- CADASTRO DE NOVA TAREFA ---\\n\")\n","\n","    # Validacao do titulo (campo obrigatorio)\n","    while True:\n","        titulo = input(\"Titulo da tarefa: \").strip()\n","        if titulo == \"\":\n","            print(\"ERRO: O titulo nao pode ser vazio. Tente novamente.\")\n","        else:\n","            break\n","\n","    # Descricao (opcional)\n","    descricao = input(\"Descricao da tarefa: \").strip()\n","\n","    # Validacao da prioridade (Alta, Media ou Baixa)\n","    prioridades_validas = [\"alta\", \"media\", \"média\", \"baixa\"]\n","    while True:\n","        prioridade = input(\"Prioridade (Alta / Media / Baixa): \").strip()\n","        if prioridade.lower() not in prioridades_validas:\n","            print(\"ERRO: Prioridade invalida! Digite Alta, Media ou Baixa.\")\n","        else:\n","            # Padronizar a primeira letra maiuscula\n","            if prioridade.lower() in [\"media\", \"média\"]:\n","                prioridade = \"Media\"\n","            else:\n","                prioridade = prioridade.capitalize()\n","            break\n","\n","    # Data limite\n","    data_limite = input(\"Data limite (DD/MM/AAAA): \").strip()\n","\n","    # Status automatico\n","    status = \"Pendente\"\n","\n","    # Criar a tarefa como dicionario\n","    tarefa = {\n","        \"titulo\": titulo,\n","        \"descricao\": descricao,\n","        \"prioridade\": prioridade,\n","        \"data_limite\": data_limite,\n","        \"status\": status\n","    }\n","\n","    tarefas.append(tarefa)\n","    print(\"\\nTarefa cadastrada com sucesso!\")\n","\n","\n","def visualizar_tarefas(tarefas):\n","    print(\"\\n--- LISTA DE TAREFAS ---\\n\")\n","\n","    if len(tarefas) == 0:\n","        print(\"Nenhuma tarefa cadastrada ainda.\")\n","        return\n","\n","    for i, tarefa in enumerate(tarefas, 1):\n","        print(f\"Tarefa {i}:\")\n","        print(f\"  Titulo:     {tarefa['titulo']}\")\n","        print(f\"  Descricao:  {tarefa['descricao']}\")\n","        print(f\"  Prioridade: {tarefa['prioridade']}\")\n","        print(f\"  Data Limite:{tarefa['data_limite']}\")\n","        print(f\"  Status:     {tarefa['status']}\")\n","        print(\"-\" * 30)\n","\n","\n","def main():\n","    tarefas = []\n","\n","    while True:\n","        exibir_menu()\n","        opcao = input(\"Escolha uma opcao (1-3): \").strip()\n","\n","        if opcao == \"1\":\n","            cadastrar_tarefa(tarefas)\n","        elif opcao == \"2\":\n","            visualizar_tarefas(tarefas)\n","        elif opcao == \"3\":\n","            print(\"\\nSaindo da aplicacao... Ate logo!\")\n","            break\n","        else:\n","            print(\"\\nOpcao invalida! Digite 1, 2 ou 3.\")\n","\n","\n","# Iniciar o programa\n","main()"]}]}
+def exibir_menu():
+    print("\n" + "="*40)
+    print("         TASKTRACKER - MENU")
+    print("="*40)
+    print("1. Cadastrar nova tarefa")
+    print("2. Visualizar tarefas cadastradas")
+    print("3. Sair da aplicacao")
+    print("="*40)
+
+
+def cadastrar_tarefa(tarefas):
+    print("\n--- CADASTRO DE NOVA TAREFA ---\n")
+
+    while True:
+        titulo = input("Titulo da tarefa: ").strip()
+        if titulo == "":
+            print("ERRO: O titulo nao pode ser vazio. Tente novamente.")
+        else:
+            break
+
+    descricao = input("Descricao da tarefa: ").strip()
+
+    prioridades_validas = ["alta", "media", "média", "baixa"]
+    while True:
+        prioridade = input("Prioridade (Alta / Media / Baixa): ").strip()
+        if prioridade.lower() not in prioridades_validas:
+            print("ERRO: Prioridade invalida! Digite Alta, Media ou Baixa.")
+        else:
+            if prioridade.lower() in ["media", "média"]:
+                prioridade = "Media"
+            else:
+                prioridade = prioridade.capitalize()
+            break
+
+    data_limite = input("Data limite (DD/MM/AAAA): ").strip()
+
+    status = "Pendente"
+
+    tarefa = {
+        "titulo": titulo,
+        "descricao": descricao,
+        "prioridade": prioridade,
+        "data_limite": data_limite,
+        "status": status
+    }
+
+    tarefas.append(tarefa)
+    print("\nTarefa cadastrada com sucesso!")
+
+
+def visualizar_tarefas(tarefas):
+    print("\n--- LISTA DE TAREFAS ---\n")
+
+    if len(tarefas) == 0:
+        print("Nenhuma tarefa cadastrada ainda.")
+        return
+
+    for i, tarefa in enumerate(tarefas, 1):
+        print(f"Tarefa {i}:")
+        print(f"  Titulo:      {tarefa['titulo']}")
+        print(f"  Descricao:   {tarefa['descricao']}")
+        print(f"  Prioridade:  {tarefa['prioridade']}")
+        print(f"  Data Limite: {tarefa['data_limite']}")
+        print(f"  Status:      {tarefa['status']}")
+        print("-" * 30)
+
+
+def main():
+    tarefas = []
+
+    while True:
+        exibir_menu()
+        opcao = input("Escolha uma opcao (1-3): ").strip()
+
+        if opcao == "1":
+            cadastrar_tarefa(tarefas)
+        elif opcao == "2":
+            visualizar_tarefas(tarefas)
+        elif opcao == "3":
+            print("\nSaindo da aplicacao... Ate logo!")
+            break
+        else:
+            print("\nOpcao invalida! Digite 1, 2 ou 3.")
+
+
+main()
